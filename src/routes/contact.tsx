@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Linkedin, Mail, MapPin } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
 
@@ -61,23 +61,12 @@ function ContactPage() {
                 <li className="grid grid-cols-[auto_minmax(0,1fr)] items-start gap-3">
                   <Linkedin className="mt-0.5 size-4 shrink-0 text-primary" />
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/in/sokode-ai-ab3396425/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="min-w-0 text-muted-foreground transition-colors hover:text-primary"
                   >
                     LinkedIn
-                  </a>
-                </li>
-                <li className="grid grid-cols-[auto_minmax(0,1fr)] items-start gap-3">
-                  <Github className="mt-0.5 size-4 shrink-0 text-primary" />
-                  <a
-                    href="https://github.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="min-w-0 text-muted-foreground transition-colors hover:text-primary"
-                  >
-                    GitHub
                   </a>
                 </li>
                 <li className="grid grid-cols-[auto_minmax(0,1fr)] items-start gap-3">

@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Linkedin, Mail, MapPin } from "lucide-react";
 import { Logo } from "@/components/Logo";
 
 export function SiteFooter() {
@@ -63,16 +63,7 @@ export function SiteFooter() {
             </ul>
             <div className="mt-5 flex gap-2">
               <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Sokode AI on GitHub"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
-              >
-                <Github className="size-4" />
-              </a>
-              <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/sokode-ai-ab3396425/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Sokode AI on LinkedIn"
