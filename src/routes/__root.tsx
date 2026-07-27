@@ -80,32 +80,33 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Avenix AI — Transform Business Data Into Intelligent Decisions" },
+      { title: "Sokode AI — Transform Business Data Into Intelligent Decisions" },
       {
         name: "description",
         content:
-          "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
+          "Sokode AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
       },
-      { name: "author", content: "Avenix AI" },
-      { property: "og:title", content: "Avenix AI — Transform Business Data Into Intelligent Decisions" },
+      { name: "author", content: "Sokode AI" },
+      { property: "og:title", content: "Sokode AI — Transform Business Data Into Intelligent Decisions" },
       {
         property: "og:description",
         content:
-          "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
+          "Sokode AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#2563EB" },
-      { name: "twitter:title", content: "Avenix AI — Transform Business Data Into Intelligent Decisions" },
-      { name: "twitter:description", content: "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/0000fcde-a628-4381-a4d3-906988ce18ce" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/0000fcde-a628-4381-a4d3-906988ce18ce" },
+      { name: "twitter:title", content: "Sokode AI — Transform Business Data Into Intelligent Decisions" },
+      { name: "twitter:description", content: "Sokode AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making." },
+      { property: "og:image", content: "/sokode-og-image.svg" },
+      { name: "twitter:image", content: "/sokode-og-image.svg" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
+      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

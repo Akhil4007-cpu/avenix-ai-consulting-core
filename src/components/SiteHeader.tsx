@@ -18,10 +18,10 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3.5 lg:px-8">
-        <Link to="/" className="flex min-w-0 items-center gap-2.5" aria-label="Avenix AI home">
+        <Link to="/" className="flex min-w-0 items-center gap-2.5" aria-label="Sokode AI home">
           <Logo className="h-9 w-9 shrink-0" />
           <span className="truncate font-display text-lg font-extrabold tracking-tight">
-            Avenix<span className="gradient-text"> AI</span>
+            Sokode<span className="gradient-text"> AI</span>
           </span>
         </Link>
 

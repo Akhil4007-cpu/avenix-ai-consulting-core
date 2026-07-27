@@ -7,13 +7,13 @@ import { PageHero } from "@/components/PageHero";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "AI Consulting Services — Avenix AI" },
+      { title: "AI Consulting Services — Sokode AI" },
       {
         name: "description",
         content:
-          "Data analytics, machine learning solutions, AI chatbots, and custom AI development delivered end to end by Avenix AI.",
+          "Data analytics, machine learning solutions, AI chatbots, and custom AI development delivered end to end by Sokode AI.",
       },
-      { property: "og:title", content: "AI Consulting Services — Avenix AI" },
+      { property: "og:title", content: "AI Consulting Services — Sokode AI" },
       {
         property: "og:description",
         content:

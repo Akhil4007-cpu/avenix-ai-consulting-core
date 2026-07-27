@@ -18,13 +18,13 @@ import {
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Avenix AI — Book a Free Consultation" },
+      { title: "Contact Sokode AI — Book a Free Consultation" },
       {
         name: "description",
         content:
-          "Tell us about your project and book a free consultation with Avenix AI. Based in Hyderabad, Telangana, India.",
+          "Tell us about your project and book a free consultation with Sokode AI. Based in Hyderabad, Telangana, India.",
       },
-      { property: "og:title", content: "Contact Avenix AI — Book a Free Consultation" },
+      { property: "og:title", content: "Contact Sokode AI — Book a Free Consultation" },
       {
         property: "og:description",
         content: "Share your goals and we'll outline practical AI options for your organization.",
@@ -138,10 +138,10 @@ function ContactPage() {
                 <li className="grid grid-cols-[auto_minmax(0,1fr)] items-start gap-3">
                   <Mail className="mt-0.5 size-4 shrink-0 text-primary" />
                   <a
-                    href="mailto:contact@avenixai.com"
+                    href="mailto:contact@sokodeai.com"
                     className="min-w-0 break-words text-muted-foreground transition-colors hover:text-primary"
                   >
-                    contact@avenixai.com
+                    contact@sokodeai.com
                   </a>
                 </li>
                 <li className="grid grid-cols-[auto_minmax(0,1fr)] items-start gap-3">
