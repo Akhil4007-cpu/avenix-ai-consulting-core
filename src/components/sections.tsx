@@ -50,11 +50,11 @@ export function ServicesGrid({ detailed = false }: { detailed?: boolean }) {
   );
 }
 
-export function WhyAvenix() {
+export function WhySokode() {
   return (
     <Section>
       <SectionHeading
-        eyebrow="Why Avenix AI"
+        eyebrow="Why Sokode AI"
         title="A consulting partner focused on outcomes, not experiments"
         description="We build AI systems that fit your operations, stay maintainable, and keep delivering value after go-live."
       />

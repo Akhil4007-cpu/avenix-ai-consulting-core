@@ -7,13 +7,13 @@ import { featuredSolutions } from "@/data/site";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Featured Solutions — Avenix AI" },
+      { title: "Featured Solutions — Sokode AI" },
       {
         name: "description",
         content:
-          "Explore featured AI solution concepts from Avenix AI, spanning analytics dashboards, predictive models, chatbots, and document intelligence.",
+          "Explore featured AI solution concepts from Sokode AI, spanning analytics dashboards, predictive models, chatbots, and document intelligence.",
       },
-      { property: "og:title", content: "Featured Solutions — Avenix AI" },
+      { property: "og:title", content: "Featured Solutions — Sokode AI" },
       {
         property: "og:description",
         content: "Solution concepts across analytics, machine learning, chatbots, and custom AI.",

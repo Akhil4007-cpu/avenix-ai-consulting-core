@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section, SectionHeading, Eyebrow } from "@/components/Section";
-import { ServicesGrid, WhyAvenix, WorkProcess } from "@/components/sections";
+import { ServicesGrid, WhySokode, WorkProcess } from "@/components/sections";
 import { CallToAction } from "@/components/CallToAction";
 import { featuredSolutions, industries } from "@/data/site";
 import heroImage from "@/assets/hero-ai.jpg";
@@ -10,20 +10,20 @@ import heroImage from "@/assets/hero-ai.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Avenix AI — Transform Business Data Into Intelligent Decisions" },
+      { title: "Sokode AI — Transform Business Data Into Intelligent Decisions" },
       {
         name: "description",
         content:
-          "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
+          "Sokode AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
       },
       {
         property: "og:title",
-        content: "Avenix AI — Transform Business Data Into Intelligent Decisions",
+        content: "Sokode AI — Transform Business Data Into Intelligent Decisions",
       },
       {
         property: "og:description",
         content:
-          "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
+          "Sokode AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
       },
     ],
   }),
@@ -42,7 +42,7 @@ function Index() {
               <span className="gradient-text">Intelligent Decisions</span>
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Avenix AI develops modern Data Analytics, Machine Learning, AI Chatbots, and Custom AI
+              Sokode AI develops modern Data Analytics, Machine Learning, AI Chatbots, and Custom AI
               Solutions that help businesses automate workflows, improve decision-making, and
               accelerate growth.
             </p>
@@ -102,7 +102,7 @@ function Index() {
       </section>
 
       <ServicesGrid />
-      <WhyAvenix />
+      <WhySokode />
       <WorkProcess />
 
       <Section>

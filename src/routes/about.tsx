@@ -2,19 +2,19 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Compass, ShieldCheck, Workflow } from "lucide-react";
 import { Section, SectionHeading } from "@/components/Section";
 import { PageHero } from "@/components/PageHero";
-import { WhyAvenix, WorkProcess } from "@/components/sections";
+import { WhySokode, WorkProcess } from "@/components/sections";
 import { CallToAction } from "@/components/CallToAction";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Avenix AI — AI Consulting Company" },
+      { title: "About Sokode AI — AI Consulting Company" },
       {
         name: "description",
         content:
-          "Avenix AI helps organizations unlock the power of artificial intelligence through practical, scalable, and data-driven solutions.",
+          "Sokode AI helps organizations unlock the power of artificial intelligence through practical, scalable, and data-driven solutions.",
       },
-      { property: "og:title", content: "About Avenix AI — AI Consulting Company" },
+      { property: "og:title", content: "About Sokode AI — AI Consulting Company" },
       {
         property: "og:description",
         content:
@@ -52,7 +52,7 @@ function AboutPage() {
       <PageHero
         eyebrow="About"
         title="An AI consulting company built around practical delivery"
-        description="Avenix AI is dedicated to helping organizations unlock the power of Artificial Intelligence through practical, scalable, and data-driven solutions."
+        description="Sokode AI is dedicated to helping organizations unlock the power of Artificial Intelligence through practical, scalable, and data-driven solutions."
       />
 
       <Section>
@@ -96,7 +96,7 @@ function AboutPage() {
         </div>
       </Section>
 
-      <WhyAvenix />
+      <WhySokode />
       <WorkProcess />
 
       <Section>

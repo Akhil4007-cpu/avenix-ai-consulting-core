@@ -1,14 +1,14 @@
 export function Logo({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 40 40" className={className} role="img" aria-label="Avenix AI logo">
+    <svg viewBox="0 0 40 40" className={className} role="img" aria-label="Sokode AI logo">
       <defs>
-        <linearGradient id="avenix-logo-grad" x1="0" y1="0" x2="1" y2="1">
+        <linearGradient id="sokode-logo-grad" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="#2563EB" />
           <stop offset="55%" stopColor="#4F46E5" />
           <stop offset="100%" stopColor="#7C3AED" />
         </linearGradient>
       </defs>
-      <rect width="40" height="40" rx="12" fill="url(#avenix-logo-grad)" />
+      <rect width="40" height="40" rx="12" fill="url(#sokode-logo-grad)" />
       <path
         d="M12 28.5 20 11.5l8 17"
         fill="none"

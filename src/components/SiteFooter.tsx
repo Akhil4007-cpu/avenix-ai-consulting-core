@@ -11,7 +11,7 @@ export function SiteFooter() {
             <div className="flex items-center gap-2.5">
               <Logo className="h-9 w-9 shrink-0" />
               <span className="font-display text-lg font-extrabold tracking-tight">
-                Avenix<span className="gradient-text"> AI</span>
+                Sokode<span className="gradient-text"> AI</span>
               </span>
             </div>
             <p className="mt-3 text-sm text-muted-foreground">Intelligent Data. Smarter Decisions.</p>
@@ -52,8 +52,8 @@ export function SiteFooter() {
             <ul className="mt-4 space-y-2.5 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Mail className="size-4 shrink-0 text-primary" />
-                <a href="mailto:contact@avenixai.com" className="transition-colors hover:text-primary">
-                  contact@avenixai.com
+                <a href="mailto:contact@sokodeai.com" className="transition-colors hover:text-primary">
+                  contact@sokodeai.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -66,7 +66,7 @@ export function SiteFooter() {
                 href="https://github.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Avenix AI on GitHub"
+                aria-label="Sokode AI on GitHub"
                 className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
               >
                 <Github className="size-4" />
@@ -75,14 +75,14 @@ export function SiteFooter() {
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Avenix AI on LinkedIn"
+                aria-label="Sokode AI on LinkedIn"
                 className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
               >
                 <Linkedin className="size-4" />
               </a>
               <a
-                href="mailto:contact@avenixai.com"
-                aria-label="Email Avenix AI"
+                href="mailto:contact@sokodeai.com"
+                aria-label="Email Sokode AI"
                 className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
               >
                 <Mail className="size-4" />
@@ -92,7 +92,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Avenix AI. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sokode AI. All rights reserved.</p>
           <p>Data Analytics · Machine Learning · AI Chatbots · Custom AI</p>
         </div>
       </div>
