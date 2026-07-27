@@ -80,22 +80,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Avenix AI — Intelligent Data. Smarter Decisions." },
+      { title: "Avenix AI — Transform Business Data Into Intelligent Decisions" },
       {
         name: "description",
         content:
-          "Avenix AI is an AI consulting company building data analytics, machine learning, chatbot, and custom AI solutions for businesses.",
+          "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
       },
       { name: "author", content: "Avenix AI" },
-      { property: "og:title", content: "Avenix AI — Intelligent Data. Smarter Decisions." },
+      { property: "og:title", content: "Avenix AI — Transform Business Data Into Intelligent Decisions" },
       {
         property: "og:description",
         content:
-          "AI consulting for data analytics, machine learning, chatbots, and custom AI solutions.",
+          "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#2563EB" },
+      { name: "twitter:title", content: "Avenix AI — Transform Business Data Into Intelligent Decisions" },
+      { name: "twitter:description", content: "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/0000fcde-a628-4381-a4d3-906988ce18ce" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/0000fcde-a628-4381-a4d3-906988ce18ce" },
     ],
     links: [
       {
@@ -108,7 +112,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
   shellComponent: RootShell,

@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Modern AI consulting for analytics, machine learning, chatbots, and custom AI solutions.",
+          "Avenix AI builds data analytics, machine learning, AI chatbot, and custom AI solutions that help organizations automate workflows and improve decision-making.",
       },
     ],
   }),
